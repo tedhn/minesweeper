@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Board {
+  margin: 50px;
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 0.5px solid black;
+  color: white;
+  text-align: center;
+
+  &.red {
+    background-color: red;
+  }
+
+  &.green {
+    background-color: green;
+  }
+}
