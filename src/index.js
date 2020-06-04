@@ -37,6 +37,7 @@ function Board() {
       }
     }
 
+    // if total mines === 0 , automatically click on its surrounding squares
     setCoor(mines);
   };
 
