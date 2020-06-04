@@ -32,10 +32,6 @@ export default function Square(props) {
     totalMines += checkTopLeft(x, y);
     totalMines += checkBottomLeft(x, y);
 
-    if (totalmines === 0) {
-      // open up the surroudning squares
-    }
-
     return totalMines;
   };
 
